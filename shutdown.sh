@@ -8,7 +8,7 @@ while true; do
     minutes=$(echo $runtime | awk -F: '{print $1}')
     echo $minutes
     # 判断运行时长是否大于 29 分钟
-    if [ $minutes -gt 29 ]; then
+    if [ $minutes -gt 28 ]; then
         echo "Process with PID 8 has been running for more than 29 minutes. Killing the process..."
         kill 8
     else
