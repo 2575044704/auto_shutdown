@@ -6,11 +6,11 @@
 *配合此脚本使用可以无限白嫖GPU*
 > 有疑问联系QQ2575044704
 # 使用方法
-正常运行：
+正常运行：  
 `
 bash shutdown.sh
 `
-后台运行：
+后台运行：  
 ```
 import subprocess
 try:
