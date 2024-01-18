@@ -10,6 +10,7 @@
 `
 bash shutdown.sh
 `
+  
 后台运行：  
 ```
 import subprocess
