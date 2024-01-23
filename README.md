@@ -15,7 +15,7 @@ bash shutdown.sh
 ```
 import subprocess
 try:
-    process = subprocess.Popen(["bash", shutdown.sh])
+    process = subprocess.Popen(["bash", "shutdown.sh"])
 except KeyboardInterrupt:
     print("Script execution interrupted.")
 ```
