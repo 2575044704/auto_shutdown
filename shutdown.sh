@@ -14,5 +14,5 @@ while true; do
     else
         echo "Process with PID 8 is still running within the 29-minute limit."
     fi
-    sleep 30
+    sleep 50
 done
