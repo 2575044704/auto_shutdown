@@ -1,8 +1,10 @@
 #!/bin/bash
+# 获取 Jupyter Lab 进程的 PID
+pid=$(pgrep -f jupyter-lab)
 
 while true; do
-    # 获取 PID 为 8 的进程运行时长
-    runtime=$(ps -o etime= -p 20)
+    # 获取 PID 为 20 的进程运行时长
+    runtime=$(ps -o etime= -p $pid)
 
     # 解析运行时长中的分钟部分
     minutes=$(echo $runtime | awk -F: '{print $1}')
