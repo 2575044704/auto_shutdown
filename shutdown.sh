@@ -8,7 +8,7 @@ while true; do
 
     # 解析运行时长中的分钟部分
     minutes=$(echo $runtime | awk -F: '{print $1}')
-    echo $minutes
+    echo 已运行$minutes
     # 判断运行时长是否大于 29 分钟
     if [ $minutes -gt 28 ]; then
         echo "运行时长已超过29分钟，将于10秒内关机，注意保存数据！！"
